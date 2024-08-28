@@ -1,0 +1,20 @@
+body {
+    background: #575757;
+    margin: 0;
+  }
+.BarraDeCima {
+    text-align: center;
+    margin: auto ;
+    background: #688a5f;
+    display: flex;
+    justify-content: space-between;
+}
+.BarraDeCima h1 {
+    margin: 0;
+    padding: 20px;
+}
+.Palagravos1 {
+    text-align: auto;
+    background-color: aliceblue;
+    
+}
