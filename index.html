@@ -3,21 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio!</title>
+    <title>Meu Portfólio!</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="" href="">
 </head>
 <body>
-    <div class="principalClass1">
-        <div class="BarraDeCima">        
-            <h1>Home</h1>
-            <h1>Sobre Min</h1>
-            <h1>Projetos</h1>
-            <h1>Contatos</h1>
+    <header>
+        <nav> 
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Este é o meu Portfólio, feito por joao gabriel, no vs code com ajuda de IA para o meu Portfólio</h2>
+            <p>Por favor aprofeite meu Portfólio e meus projetos, todos feitos para entrega de trabalhos e mais <br>
+                tem tambem meus contatos para manda sua sujestao, muito obrigado, aprofeite.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <img src="minha-foto.jpg" alt="Minha Foto" class="foto-sobre">
+                <p>Meu nome é joao gabriel machado carlstro, tenho 17 anos, adoro jogos, tanto que quero trabalhar coom o mesno <br>
+                    estou estudando e aprendendo pra criar meus jogos, tenho varias ideias, mas por inguanto que eu ainda nao fiz nadas😅<br>
+                    mas nao é tudo mil maravilhas, esse Portfólio representa o mesmo, aprofeite.</p>
+            </div>
+        </section>
+        
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="galeria">
+                <img src="projeto1.jpg" alt="Projeto 1" class="projeto" data-modal="modal1">
+                <img src="projeto2.jpg" alt="Projeto 2" class="projeto" data-modal="modal2">
+                <img src="projeto3.jpg" alt="Projeto 3" class="projeto" data-modal="modal3">
+            </div>
+        </section>
+        
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal1">&times;</span>
+                <h2>Projeto 1</h2>
+                <p>Sao as minhas foto como modelo, a moda mandrak que escolhemos, ficou daora pra carambas😎</p>
+            </div>
         </div>
-        <div class="Palagravos1">
-            Meus Palagravos! esse é apenas um texto de exemplo, por favor ignores
+        
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal2">&times;</span>
+                <h2>Projeto 2</h2>
+                <p>Seminario de portugues a tema do windos xp, eu gostei bastante desta aprecentaçao, foi bem divertido de fazer</p>
+            </div>
         </div>
-    </div>
+        
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" data-modal="modal3">&times;</span>
+                <h2>Projeto 3</h2>
+                <p>ja esse representa minhas ediçoes no canva, photoshop e muito mais</p>
+            </div>
+        </div>
+        
+
+        <section id="contatos">
+            <h2>Contatos</h2>
+            <p>Meu contatos estao logo abaixo, entre em contatos comigo, vlw fui.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/ovosemovo/?next=%2F"><img src="instagram.png" alt="instagram"></a>
+            <a href="https://wa.me/5511959440899"><img src="whatsapp.png" alt="zap"></a>
+            <a href="https://github.com/OVOSEMOVO.com"><img src="github.png" alt="gitHub" ></a>
+        </div>
+    </footer>
 </body>
 </html>
